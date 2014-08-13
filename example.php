@@ -1,6 +1,6 @@
 <?php
 
-require_once('SmartlingUploadClient');
+require_once('SmartlingUploadClient.php');
 
 $client = new SmartlingUploadClient('Your Smartling projectId here', 'Your Smartling APIKey here');
 
